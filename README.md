@@ -31,7 +31,7 @@ The project analyzes:
 
 The Power BI dashboard provides an interactive view of accident and casualty trends using KPI cards, charts, comparisons, and slicers for **Road Surface** and **Weather Conditions**.
 
-![Power BI Dashboard](Screenshots/Power-BI-Dashboard.png)
+![Power BI Dashboard](Screenshots/Power%20BI-Dashboard.png)
 
 ## Excel Dashboard
 
