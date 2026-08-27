@@ -62,19 +62,20 @@ The SQL analysis includes:
 
 The complete SQL queries are available in the [`SQL`](SQL/) folder.
 
-Tools & Skills
+## Tools & Skills
 
-Excel | SQL Server | Power BI | DAX | Data Analysis | Data Validation | Data Visualization | Dashboard Development
+**Excel | SQL Server | Power BI | DAX | Data Analysis | Data Validation | Data Visualization | Dashboard Development**
 
-Project Workflow
+## Project Workflow
 
-Excel → SQL Server → Data Validation & Analysis → Power BI → Interactive Dashboard
+**Excel → SQL Server → Data Validation & Analysis → Power BI → Interactive Dashboard**
 
-Repository Contents
-Power BI — Interactive Power BI dashboard
-SQL — SQL queries used for analysis and validation
-Screenshot — Dashboard preview
-Excel — Project workbook and underlying analysis
+## Repository Contents
+
+- **Power BI** — Interactive Power BI dashboard
+- **SQL** — SQL queries used for analysis and validation
+- **Screenshot** — Dashboard preview
+- **Excel** — Project workbook and underlying analysis
 
 ## Project Structure
 
