@@ -4,32 +4,40 @@ An end-to-end data analytics project using **Excel, SQL Server, and Power BI** t
 
 ## Project Overview
 
-The objective of this project was to analyze road accident data and build an interactive Power BI dashboard that provides a clear view of accident and casualty trends.
+The objective of this project was to analyze road accident data and develop dashboards using Excel and Power BI, supported by SQL-based data validation and analysis.
 
 The project combines:
 
-- **Excel** for data preparation and analysis
+- **Excel** for data analysis and dashboard development
 - **SQL Server** for data validation and analytical queries
-- **Power BI** for data modeling, DAX calculations, and dashboard development
+- **Power BI** for data modeling, DAX calculations, and interactive dashboard development
 
 ## Key Analysis
 
-The dashboard analyzes:
+The project analyzes:
 
-- Total casualties and total accidents
+- Total accidents and casualties
 - Fatal, serious, and slight casualties
 - Casualties by vehicle type
-- Current-year vs previous-year monthly casualties
+- Current-year vs previous-year casualty trends
 - Casualties by road type
 - Urban vs rural casualties
 - Day vs night casualties
+- Casualties by light conditions
+- Casualties by weather conditions
 - Top 10 locations by number of casualties
 
-## Dashboard
+## Power BI Dashboard
 
-The Power BI dashboard provides an interactive view of the analysis using KPI cards, trend analysis, categorical comparisons, and slicers for **Road Surface** and **Weather Conditions**.
+The Power BI dashboard provides an interactive view of accident and casualty trends using KPI cards, charts, comparisons, and slicers for **Road Surface** and **Weather Conditions**.
 
-![Road Accident Analysis Dashboard](Screenshot/Dashboard.png)
+![Power BI Dashboard](Screenshots/Power-BI-Dashboard.png)
+
+## Excel Dashboard
+
+An Excel dashboard was also developed to analyze road accident data through KPI cards, charts, filters, and visual comparisons.
+
+![Excel Dashboard](Screenshots/Excel-Dashboard.png)
 
 ## Key Dashboard Metrics
 
@@ -41,11 +49,11 @@ The Power BI dashboard provides an interactive view of the analysis using KPI ca
 | Serious Casualties | 18.8K |
 | Slight Casualties | 124.1K |
 
-The dashboard also shows year-over-year percentage changes for the key casualty and accident metrics.
+The Power BI dashboard also shows year-over-year percentage changes for the key accident and casualty metrics.
 
 ## SQL Analysis
 
-SQL Server was used to validate the figures presented in the Power BI dashboard and perform analytical queries.
+SQL Server was used to validate figures presented in the dashboards and perform analytical queries.
 
 The SQL analysis includes:
 
@@ -60,27 +68,31 @@ The SQL analysis includes:
 - Day vs night casualty analysis
 - Top 10 locations by casualties
 
-The complete SQL queries are available in the [`SQL`](SQL/) folder.
+The complete SQL queries are available in the **SQL** folder.
 
 ## Tools & Skills
 
-**Excel | SQL Server | Power BI | DAX | Data Analysis | Data Validation | Data Visualization | Dashboard Development**
+**Excel | SQL Server | Power BI | DAX | Data Analysis | Data Validation | Data Visualization | Dashboard Development | Data Modeling**
 
 ## Project Workflow
 
-**Excel → SQL Server → Data Validation & Analysis → Power BI → Interactive Dashboard**
+**Excel → SQL Server → Data Validation & Analysis → Power BI → Interactive Dashboards**
 
 ## Repository Contents
 
+- **Excel** — Excel analysis and dashboard
 - **Power BI** — Interactive Power BI dashboard
 - **SQL** — SQL queries used for analysis and validation
-- **Screenshot** — Dashboard preview
-- **Excel** — Project workbook and underlying analysis
+- **Screenshots** — Excel and Power BI dashboard previews
+- **README.md** — Project documentation
 
 ## Project Structure
 
 ```text
 road-accident-analysis/
+│
+├── Excel/
+│   └── Road Accident Analysis.xlsx
 │
 ├── Power BI/
 │   └── Road Accident Analysis.pbix
@@ -88,9 +100,9 @@ road-accident-analysis/
 ├── SQL/
 │   └── Road_Accident_Analysis_Queries.sql
 │
-├── Screenshot/
-│   └── Dashboard.png
+├── Screenshots/
+│   ├── Excel-Dashboard.png
+│   └── Power-BI-Dashboard.png
 │
-├── Road Accident Analysis.xlsx
 ├── .gitattributes
 └── README.md
